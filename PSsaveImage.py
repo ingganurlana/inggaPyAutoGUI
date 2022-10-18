@@ -59,7 +59,7 @@ fase2 = ["Object.013",
 "Object.053",
 "Object.079"]
 
-fase3 = ["Object",
+fase3 = ["Object.000",
 "Object.001",
 "Object.002",
 "Object.003",
