@@ -4,7 +4,7 @@ import time
 time.sleep(5)
 
 
-for i in range(67):
+for i in range(18):
     p.moveTo(x=702, y=636)
     p.click()
 

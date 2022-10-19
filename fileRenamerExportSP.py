@@ -1,14 +1,13 @@
 import pyautogui
 import time
 
-myList = ["Cube",
-"Light",
-"Camera",
-"Icosphere",
-"Icosphere.001",
-"Cone",
-"Sphere",
-"Cone.001"]
+myList = [
+"Object.073",
+"Object.074",
+"Object.075",
+"Object.076",
+"Object.077",
+"Object.078"]
 
 myList = sorted(myList)
 
@@ -16,11 +15,15 @@ time.sleep(5)
 
 pyautogui.press('f2')
 
-try:
-    for i in myList:
-        pyautogui.typewrite(i+"_B.png")
-        pyautogui.press('tab')
-except:
-    print("ada yg salah mas")
+for i in myList:
+    print(i)
+    pyautogui.typewrite(i+"_R")
+    pyautogui.press('tab')
+    pyautogui.typewrite(i+"_N")
+    pyautogui.press('tab')
+    pyautogui.typewrite(i+"_B")
+    pyautogui.press('tab')
+
+    time.sleep(1)
 
 pyautogui.alert('done', 'GOKIL BRO!!!', 'OK')

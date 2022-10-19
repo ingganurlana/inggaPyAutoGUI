@@ -32,7 +32,8 @@ fase1 = ["Object.035",
 "Object.075",
 "Object.076",
 "Object.077",
-"Object.078"]
+"Object.078",
+"Object.082"]
 
 fase2 = ["Object.013",
 "Object.014",
@@ -93,7 +94,7 @@ fase1.reverse()
 fase2.reverse()
 fase3.reverse()
 
-for i in fase3:
+for i in fase1:
     pyautogui.moveTo(x=1759, y=801)
     pyautogui.click()
     pyautogui.press('f1')
